@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My IPTV</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <h2>📺 My IPTV</h2>
+    <input type="text" id="search" placeholder="Search channels..."/>
+    <div id="channelList"></div>
+  </aside>
+
+  <main class="player-section">
+    <video id="video" controls autoplay></video>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
