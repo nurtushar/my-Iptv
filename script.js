@@ -1,5 +1,5 @@
 const playlistUrl =
-  "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u";
+  "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/combine_playlist.m3u";
 
 const video = document.getElementById("video");
 const channelList = document.getElementById("channelList");
@@ -58,3 +58,4 @@ searchInput.addEventListener("input", e => {
   );
   renderChannels(filtered);
 });
+
